@@ -1,0 +1,27 @@
+{
+  "name": "mock-api-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmaccart/mock-api-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmaccart/mock-api-server/issues"
+  },
+  "homepage": "https://github.com/pmaccart/mock-api-server",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "express": "^4.10.2",
+    "cookie-parser": "^1.3.3",
+    "http-proxy": "^1.6.2",
+    "body-parser": "^1.9.3"
+  }
+}
